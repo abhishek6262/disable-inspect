@@ -1,19 +1,29 @@
 # Disable Inspect
 
-The package disables the inspect elements feature of the browser by disabling right-click and shortcut keys which can open the elements inspector for the website.
+The package disables the inspect element feature of the browser by disabling right-click and shortcut keys which can open the elements inspector for the website.
 
 ## Installation
 
-We can use the package in two ways.
+The package can be utilized in your preferred way. You can either use the direct link of the file through the CDN or install it using the **npm registry**.
 
-1. By directly inserting the javascript file in the DOM using the script tag and calling the `disableInspect` method.
+### Installation using the CDN
+
+To use the package through the CDN link simply copy and paste the code below in the footer section of your HTML file.
 
 ```
-    <script src="https://cdn.jsdelivr.net/npm/disable-inspect@1.0/dist/main.js"></script>
-    <script>disableInspect();</script>
+<script src="https://cdn.jsdelivr.net/npm/disable-inspect@1.0/dist/main.js"></script>
+<script>disableInspect();</script>
 ```
 
-2. Using the npm, we can install in the package and using in any of the preferred libraries or framework. Use the command `npm i disable-inspect` to install the package and then
+### Installation using the NPM Registry
+
+To install the package from the npm registry, copy and paste the command below in the terminal.
+
+```
+npm i disable-inspect
+```
+
+Next, import the method `disableInspect` from the package and call it in the file you want to use it.
 
 ```
 import { disableInspect } from "disable-inspect";
