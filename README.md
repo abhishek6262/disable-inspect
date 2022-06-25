@@ -11,7 +11,7 @@ The package can be utilized in your preferred way. You can either use the direct
 To use the package through the CDN link simply copy and paste the code below in the footer section of your HTML file.
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/disable-inspect@1.0/dist/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/disable-inspect@1.0.1/dist/main.js"></script>
 <script>disableInspect();</script>
 ```
 
