@@ -1,7 +1,7 @@
 {
   "name": "disable-inspect",
   "description": "Disables the web inspector for the website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Abhishek Prakash",
   "keywords": [
