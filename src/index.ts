@@ -11,9 +11,7 @@ enum KeyCode {
   U = 85,
 }
 
-const isMacOs = function () {
-  return navigator.platform.toUpperCase().indexOf("MAC") >= 0;
-};
+const isMacOs = () => navigator.platform.toUpperCase().indexOf("MAC") >= 0;
 
 export const disableInspect = function () {
   // Disable right-click

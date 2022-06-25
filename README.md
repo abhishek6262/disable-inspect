@@ -4,6 +4,23 @@ The package disables the inspect elements feature of the browser by disabling ri
 
 ## Installation
 
+We can use the package in two ways.
+
+1. By directly inserting the javascript file in the DOM using the script tag and calling the `disableInspect` method.
+
+```
+    <script src="https://cdn.jsdelivr.net/npm/disable-inspect@1.0/dist/main.js"></script>
+    <script>disableInspect();</script>
+```
+
+2. Using the npm, we can install in the package and using in any of the preferred libraries or framework. Use the command `npm i disable-inspect` to install the package and then
+
+```
+import { disableInspect } from "disable-inspect";
+
+disableInspect();
+```
+
 ## Credits
 
 - [Abhishek Prakash](https://github.com/abhishek6262)
